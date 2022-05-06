@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #19a2ae;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+b {
+  font-size: 18px;
+}
+
+p {
+  color: #2d3248;
+}
+
+span {
+  color: #6a6f81;
+}
+
+.topcircle {
+  position: absolute;
+  left: -240px;
+  top: -500px;
+}
+
+.botcircle {
+  position: absolute;
+  right: -218px;
+  bottom: -665PX;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  background: white;
+  border-radius: 15px;
+  height: 392px;
+  width: 375px;
+}
+
+.content .bgcard {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.content .avatar {
+  display: block;
+  position: absolute;
+  outline: 5px solid white;
+  border-radius: 50%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  left: 37%;
+  top: 25%;
+}
+
+.content .name {
+  margin-bottom: auto;
+  text-align: center;
+  margin-top: 73px;
+}
+
+.content .name p {
+  margin-top: 7px;
+}
+
+.content .down {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  padding: 25px;
+  border-top: 1px solid #969696;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+}
+
+@media screen and (max-width: 450px) {
+  .content {
+    width: 330px;
+  }
+  .content .bgcard {
+    height: 150px;
+  }
+  .content .avatar {
+    left: 36%;
+    top: 25%;
+  }
+  .topcircle {
+    position: absolute;
+    left: -600px;
+    top: -700px;
+  }
+  .botcircle {
+    position: absolute;
+    right: -800px;
+    bottom: -600px;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+/*# sourceMappingURL=main.css.map */

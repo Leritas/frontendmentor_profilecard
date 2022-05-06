@@ -1,35 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <img src="images/bg-pattern-top.svg" alt="" class="topcircle">
+  <img src="images/bg-pattern-bottom.svg" alt="" class="botcircle">
+  <div class="content">
+    <img src="images/bg-pattern-card.svg" alt="" class="bgcard">
 
-  80K
-  Followers
+    <img src="images/image-victor.jpg" alt="" class="avatar">
+    <div class="name">
+      <b>Victor Crest &nbsp &nbsp</b><span>26<br></span>
+      <p><span>London</span></p>
+    </div>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
+    <div class="down">
+      <p>
+        <b>80K</b><br>
+        <span>Followers</span>
+      </p>
+      <p>
+        <b>803K</b>
+        <br>
+        <span>Likes</span>
+      </p>
+      <p>
+        <b>1.4K</b><br>
+        <span>Photos</span>
+      </p>
+    </div>
+  </div>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Leritas</a>.
   </div>
 </body>
+
 </html>
